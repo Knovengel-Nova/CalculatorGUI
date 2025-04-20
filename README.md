@@ -1,43 +1,46 @@
-# 🧮 Java Swing Calculator
+# 🧮 Calculator GUI
 
-A simple and user-friendly calculator built using Java Swing. This project showcases a modular approach using custom panels for buttons and display, providing a clean foundation for more complex GUI applications.
+A lightweight and user-friendly calculator application built with Java Swing. This project offers both a graphical interface for ease of use and a terminal-based option for quick calculations.
+
+---
 
 ## ✨ Features
 
-- 🔢 Basic arithmetic operations (Addition, Subtraction, Multiplication, Division)
-- 🎛️ Intuitive button layout using `GridLayout`
-- 🧩 Modular design with separate panels for UI components
-- 🖥️ Real-time number input and result display
+- ✅ Basic arithmetic operations: addition, subtraction, multiplication, and division.
+- 🖱️ Intuitive graphical user interface (GUI) using Java Swing.
+- 💻 Terminal-based execution for quick calculations without GUI.
+- 📁 Portable `.jar` file for easy distribution and execution.
+- # 🛠️ Built With
 
-## 🛠️ Built With
+- ☕ Java JDK 23 or higher
+- 🧰 NetBeans IDE
+- 🎨 Java Swing​  
 
-- ☕ Java 21  
-- 🧰 NetBeans 23  
-- 🖼️ Swing (Java GUI Toolkit)
+---
 
 ## 🚀 Getting Started
 
-### ✅ Prerequisites
+### 📋 Prerequisites
 
-- 🔧 Java JDK 21 or later  
-- 🧠 NetBeans IDE 23 (recommended for editing the code)
+- Java Development Kit (JDK) 8 or higher installed.
+- NetBeans IDE for code editing and project management.
 
-### ⚙️ Setup Instructions
+### 🔧 Setup Instructions
 
-#### 👨‍💻 For Developers (Edit or Modify Code)
+#### 🛠️ For Editing or Modifying the Code:
 
-1. 📥 **Download** the full project source code from this repository.
-2. 🧭 **Open** NetBeans IDE.
-3. 📂 Navigate to `File > Open Project` and select the downloaded folder.
-4. 📝 Modify the code as needed (main class: `MainFrame.java`).
-5. ▶️ Run the project directly from the IDE.
+1. Clone or download the entire project repository.
+2. Open NetBeans IDE.
+3. Navigate to **File > Open Project**.
+4. Select the downloaded project folder.
+5. Build and run the project within NetBeans.
 
-#### 🧪 For Users (Just Test the App)
+#### 🧪 For Testing the Project:
 
-1. 📦 **Download** the `dist` folder containing the compiled `.jar` file.
-2. 💻 Open your terminal or command prompt.
-3. 📁 Navigate to the `dist` folder location.
-4. 🚀 Run the app using the command:
+1. Download the `dist` folder containing the compiled `.jar` file.
+2. Open your terminal or command prompt.
+3. Navigate to the directory containing `CalculatorGUI.jar`.
+4. Execute the following command:
 
-   ```bash
-   java -jar "CalculatorGUI.jar"
+```bash
+java -jar "CalculatorGUI.jar"
